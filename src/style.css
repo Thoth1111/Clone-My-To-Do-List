@@ -1,0 +1,99 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #d3d3d3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+section {
+  margin-top: 80px;
+  background-color: whitesmoke;
+  border: 3px solid darkgray;
+  box-shadow: 2px 2px darkgray;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+}
+
+#top {
+  display: flex;
+  justify-content: space-between;
+  width: 97%;
+  padding: 0 8px;
+  text-align: left;
+}
+
+#refresh-img {
+  margin-top: 20px;
+}
+
+#publish {
+  width: 97%;
+  height: 60px;
+  border: 2px solid #d3d3d3;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-input {
+  background-color: whitesmoke;
+  border: none;
+  outline: none;
+  font-style: italic;
+  width: 50%;
+  height: 40px;
+  font-size: 16px;
+}
+
+.entry {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 98%;
+  height: 40px;
+  padding: 8px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.boxes {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.detail {
+  border: none;
+  outline: none;
+  width: 600px;
+  font-size: 16px;
+}
+
+.detail.done {
+  text-decoration: line-through;
+}
+
+.trash-icon {
+  display: none;
+}
+
+.trash-icon.active {
+  display: block;
+  position: relative;
+  left: 90px;
+}
+
+#clear-done {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 50px;
+  color: gray;
+  font-size: 20px;
+}
